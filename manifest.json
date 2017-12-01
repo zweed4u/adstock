@@ -1,0 +1,18 @@
+
+{
+    "browser_action": {
+        "default_icon": "icon.png",
+              "default_title": "Adidas Stock"
+       },
+       "content_scripts": [ {
+              "js": [ "stock.js"  ],
+              "matches": [ "https://*.adidas.com/on/demandware.store/Sites-adidas-US-Site/en_US/Product-Show?pid=*" ]
+       } ],
+       "description": "Stock for a given product in adidas",
+       "icons": {
+              "128": "icon.png"
+       },
+       "manifest_version": 2,
+       "name": "Adidas Stock",
+       "version": "1"
+}
