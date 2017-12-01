@@ -5,8 +5,8 @@
               "default_title": "Adidas Stock"
        },
        "content_scripts": [ {
-              "js": [ "stock.js"  ],
-              "matches": [ "https://*.adidas.com/on/demandware.store/Sites-adidas-US-Site/en_US/Product-Show?pid=*" ]
+              "js": [ "stock.js" ],
+              "matches": [ "<all_urls>" ]
        } ],
        "description": "Stock for a given product in adidas",
        "icons": {
