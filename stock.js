@@ -1,4 +1,5 @@
 var flag=false;
+// lol this doesnt work. redirect reloads the script - prompts again
 if (flag==false){
 	var style=prompt("Enter a style code", "eg. BZ0223");
 	window.location.href='https://www.adidas.com/on/demandware.store/Sites-adidas-US-Site/en_US/Product-Show?pid=%20'+style;
